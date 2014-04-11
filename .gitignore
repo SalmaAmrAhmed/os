@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *~
 _*
 *.o
@@ -14,3 +15,28 @@ kernel
 kernelmemfs
 mkfs
 .gdbinit
+=======
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+>>>>>>> 48b6d71ac71d41989382b24c7991c944105ea6c2

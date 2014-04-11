@@ -5,6 +5,14 @@
 #include "memlayout.h"
 #include "mmu.h"
 #include "proc.h"
+#include "counter.h"
+
+
+int
+sys_getsyscallinfo(void)
+{
+  return getCounter();
+}
 
 int
 sys_fork(void)
